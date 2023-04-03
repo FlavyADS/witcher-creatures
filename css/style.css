@@ -1,0 +1,245 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+body, h1, h2, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, nav {
+    list-style: none;
+}
+
+body {
+    background: #0E050F;
+    -webkit-font-smoothing: antialiased;
+    max-width: 100%;
+} 
+
+section {
+    pading: 0 1rem 0 1rem; // superior, direito, inferior e esquerdo
+}
+
+.menu  ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end ;
+   align-items: start;
+   position: absolute;
+   width:100%;
+   padding-top: 12px;
+}
+
+.menu li a {
+    padding: 10px;
+    margin-right: 10px;
+    color: #282820;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+
+h1,h2,p {
+    color: #BEAFC2;
+}
+
+.banner {
+    grid-column: 1 / -1; /// pega a tela toda
+    position: relative; // imagem fica abaixo de outros elementos
+}
+
+h1, h2 {
+    font-family: 'Cormorant Infant', serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.titulo-historia {
+    font-size: 42px;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 2rem;
+    display: flex;
+}
+
+.titulo-historia::before {
+    content: '';
+    display: flex;
+    width: 1rem;
+    margin-right: 10px;
+    margin-left: 16px;
+    background: #A020F0;
+} 
+
+.historia p {
+    margin: 2rem;
+    text-align: justify;
+}
+ 
+.personagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.titulo-personagem {
+    font-size: 42px;
+    margin-top: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-item: center;
+}
+
+.titulo-personagem::before {
+    content: '';
+    display: flex;
+    width: 1rem;
+    margin-right: 10px;
+    margin-left: 16px;
+    background: #A020F0;
+} 
+
+.personagens img {
+    height: 450px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border-radius: 3px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.personagens h2::before {
+    content: '';
+    display: flex;
+    width: 2rem;
+    margin-right: 10px;
+    margin-left: 16px;
+    background: #A020F0;
+}
+
+.personagens h2 {
+    font-size: 32px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.personagens p {
+    margin: 2rem;
+    line-height: 1;
+    text-align: center;
+    text-align: justify;
+}
+
+.continente {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%
+}
+
+.titulo-continente {
+    font-size: 42px;
+    margin-top: 1rem;
+    padding: 3rem;
+    display: flex;
+}
+
+.titulo-continente::before {
+    content: '';
+    display: flex;
+    width: 1rem;
+    margin-right: 10px;
+    margin-left: 16px;
+    background: #A020F0;
+} 
+
+.continente  p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 90%;
+    text-align: justify;
+}
+
+.mapa {
+    width: 90%;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.titulo-bestiario {
+    font-size: 42px;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo-bestiario p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-bestiario::before {
+    content: '';
+    display: flex;
+    width: 1rem;
+    margin-right: 10px;
+    margin-left: 16px;
+    background: #A020F0;
+} 
+
+.bestiario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%; 
+    margin: 0 auto;
+} 
+
+.bestiario img {
+   margin-top: 3rem;
+   margin-bottom: .25rem;
+   padding: 1rem;
+}   
+
+.bestiario p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-best {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.menu-footer li a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    margin: 1rem;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color:#A020F0;
+}
